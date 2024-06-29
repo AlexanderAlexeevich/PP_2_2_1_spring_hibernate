@@ -29,7 +29,6 @@ public class MainApp {
          System.out.println("Email = "+user.getEmail());
          System.out.println("Car = "+user.getCar());
          System.out.println();
-//         System.out.println(user.toString());
       }
       System.out.println(userService.getUserByCar("Lada", 2115));
 
